@@ -8,9 +8,7 @@ Atualmente trabalho na empresa Robert Bosch, participo do projeto de aprendizage
 - Otima capacidade lógica e organizacional
 - Linguagens de programação: Python , JavaScript
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height = "40" alt="python logo" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height = "40" alt="python logo" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
 
 ## Formação
 _**Análise e desenvolvimento de sistemas**_ - **SENAI** "Roberto Mange"   
@@ -21,8 +19,5 @@ _Junho_ de 2023 - _Agosto de 2023_
 
 _**Implantação de serviços na nuvem**_ - **SENAI** "Roberto Mange"  
 _Fevereiro_ de 2023 - _Abril_ de 2024
-
-
-# ***teste***   
 
 
