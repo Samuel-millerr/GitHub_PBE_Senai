@@ -1,0 +1,3 @@
+OBS SOBRE O COMMIT
+
+Tentei instalar o git no meu computador e realizer a clonagem do diretorio, porém não funcionou
