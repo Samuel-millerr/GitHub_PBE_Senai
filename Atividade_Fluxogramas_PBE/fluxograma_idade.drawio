@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0" version="26.0.14">
+  <diagram name="Página-1" id="VhGtYzQmGosGlmOSbJTy">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-1" value="FINAL" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="30" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-2" target="wOaM2vH9fGOf_EJ2EB1n-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-2" value="INICIO" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="354" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-3" target="wOaM2vH9fGOf_EJ2EB1n-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-3" value="Peça a idade&lt;div&gt;(idade)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-5" target="wOaM2vH9fGOf_EJ2EB1n-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-5" value="A idade é menor&amp;nbsp;&lt;div&gt;ou igual a 12?&lt;div&gt;(idade &amp;lt;= 12)&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="260" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-11" target="wOaM2vH9fGOf_EJ2EB1n-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-11" value="Exiba &quot;Criança&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="285" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-5" target="wOaM2vH9fGOf_EJ2EB1n-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-13" target="wOaM2vH9fGOf_EJ2EB1n-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-13" value="A idade está&amp;nbsp;&lt;div&gt;entre 13 e 17?&lt;div&gt;(13 &amp;gt;= idade &amp;lt;= 17)&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="420" width="156" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-14" target="wOaM2vH9fGOf_EJ2EB1n-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-14" value="Exiba &quot;Adolescente&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="445" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-13" target="wOaM2vH9fGOf_EJ2EB1n-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-19" target="wOaM2vH9fGOf_EJ2EB1n-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-19" value="A idade é está&amp;nbsp;&lt;div&gt;entre 18 e 59?&lt;/div&gt;&lt;div&gt;(18 &amp;gt;= idade &amp;lt;=59)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="583" width="146" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-20" target="wOaM2vH9fGOf_EJ2EB1n-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-20" value="Exiba &quot;Adulto&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="610" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-19" target="wOaM2vH9fGOf_EJ2EB1n-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wOaM2vH9fGOf_EJ2EB1n-27" target="wOaM2vH9fGOf_EJ2EB1n-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-27" value="Exiba &quot;Idoso&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="875" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-30" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="314" y="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-31" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="309" y="452" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-35" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="314" y="620" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-36" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-37" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="530" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOaM2vH9fGOf_EJ2EB1n-38" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="700" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

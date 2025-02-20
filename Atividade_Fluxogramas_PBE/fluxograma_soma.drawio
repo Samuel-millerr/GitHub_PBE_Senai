@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0" version="26.0.11">
+  <diagram name="Página-1" id="eYsU9B7ux_aioMnqGGMx">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vJNIJzSY5-GQOcJkgA5J-1" target="vJNIJzSY5-GQOcJkgA5J-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-1" value="INICIO" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="368" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-2" value="FINAL" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="370" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vJNIJzSY5-GQOcJkgA5J-3" target="vJNIJzSY5-GQOcJkgA5J-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-3" value="Insira o primeiro&amp;nbsp;&lt;div&gt;número&lt;div&gt;(n1)&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vJNIJzSY5-GQOcJkgA5J-4" target="vJNIJzSY5-GQOcJkgA5J-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-4" value="Insira o segundo&lt;div&gt;&amp;nbsp;número&lt;div&gt;(n2)&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-7" value="Some os dois&lt;div&gt;números&lt;/div&gt;&lt;div&gt;(n1 + n2 = soma)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vJNIJzSY5-GQOcJkgA5J-9" target="vJNIJzSY5-GQOcJkgA5J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-9" value="Exiba o resultado&lt;div&gt;(soma)&lt;/div&gt;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vJNIJzSY5-GQOcJkgA5J-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=67.5;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vJNIJzSY5-GQOcJkgA5J-7" target="vJNIJzSY5-GQOcJkgA5J-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
