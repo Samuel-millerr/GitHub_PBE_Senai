@@ -1,4 +1,4 @@
-#EXERCÍCIO 08 - VERIFICAÇÃO DE DESCONTO
+#EXERCÍCIO 09 - VERIFICAÇÃO DE DESCONTO
 valor_compra = float(input("Insira o valor total da compra: "))
 
 if valor_compra < 100:
