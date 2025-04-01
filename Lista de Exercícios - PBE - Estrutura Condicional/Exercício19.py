@@ -1,11 +1,14 @@
 #EXERCÍCIO 19 - DESAFIO
+import re
+
 cpf = input("Insira o se CPF para ser realizado a verificação, na seguinte estrutura XXX.XXX.XXX-XX: ")
+
 
 if len(cpf) < 14:
     print("CPF Inválido! O CPF não possui 11 dígitos.")
 else:
-    if cpf[3] != "." or cpf[7] != "." or cpf[11] != "-":
-        print("CPF Inválido. Digite o CPF na estrutura correta, com os pontos e o traço.")
+    if cpf[3] != "." or cpf[7] != "." or cpf[11] != "-" or re.search(r"[!@#$%¨&*()^`{}?\":><.,/°|]", cpf) or re.search(r"[a-z]", cpf) or re.search(r"[A-Z]", cpf):
+        print("CPF Inválido. Digite o CPF na estrutura correta, com os pontos, traços e sem letras ou outros caracteres.")
     else:
         digito01 = int(cpf[0]) * 10
         digito02 = int(cpf[1]) * 9 + digito01

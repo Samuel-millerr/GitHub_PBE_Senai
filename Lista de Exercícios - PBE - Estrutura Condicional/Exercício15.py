@@ -23,7 +23,7 @@ else:
     criterio_minusculas = bool(0)
     criterios.append("A senha não possui letras minusculas")
 
-if re.search("[A-Z]", senha):
+if re.search(r"[A-Z]", senha):
     criterio_maiusculas = bool(1)
 else:
     criterio_maiusculas = bool(0)
