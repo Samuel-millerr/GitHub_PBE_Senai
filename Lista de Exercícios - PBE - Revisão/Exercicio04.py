@@ -1,6 +1,6 @@
 # EXERCÍCIO 04 - GERADOR DE TABUADAS
 
-print(f"{"="*5} EXERCÍCIO 03 - TABUADA {"="*5}")
+print(f"{"="*5} EXERCÍCIO 04 - TABUADA {"="*5}")
 print("Bem vindo ao gerador de tabuadas!! Nesse gerador ira ser gerado as tabuadas do 2, do 3 e do 4.")
 
 numeros = {
