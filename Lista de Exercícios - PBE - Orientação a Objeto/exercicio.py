@@ -1,5 +1,4 @@
 # Classe Item Biblioteca - Classe Pai
-
 class ItemBiblioteca:
     def __init__(self, titulo, ano_publicacao, disponivel):
         self.titulo = titulo
@@ -32,7 +31,7 @@ class ItemBiblioteca:
 
 # Classe Coleção de livros - Classe Filha
 class ColecaoLivros(ItemBiblioteca):
-    def __init__(self, titulo, ano_publicacao, disponivel: bool = False):
+    def __init__(self, titulo, ano_publicacao, disponivel: bool = True):
         super().__init__(titulo, ano_publicacao, disponivel)
         self.lista_livro = []
 
@@ -45,12 +44,9 @@ class ColecaoLivros(ItemBiblioteca):
             if not livro.disponivel:
                 self.disponivel = False
                 break
-            self.disponivel = True
 
     def obter_info(self):
-        print(f"Nome: {self.titulo} -- Ano Publicação: {self.ano_publicacao} -- Disponível: {ItemBiblioteca.transformar_disponivel(self)}")
-        for index, livro in enumerate(self.lista_livro):
-            print(f"{index+1}° livro: {livro.titulo}")
+        print(f"Coleção; Nome: {self.titulo} -- Ano Publicação: {self.ano_publicacao} -- Disponível: {ItemBiblioteca.transformar_disponivel(self)}")
 
 # Classe Revista - Classe Filha
 class Revista(ItemBiblioteca):
@@ -70,8 +66,9 @@ class Revista(ItemBiblioteca):
             return True
 
     def obter_info(self):
-        print(f"Nome: {self.titulo} -- Ano Publicação: {self.ano_publicacao}-- Disponível: {ItemBiblioteca.transformar_disponivel(self)} -- Número da Edição: {self.numero_edicao}")
+        print(f"Revista; Nome: {self.titulo} -- Ano Publicação: {self.ano_publicacao}-- Disponível: {ItemBiblioteca.transformar_disponivel(self)} -- Número da Edição: {self.numero_edicao}")
 
+# Classe Biblioteca - Lista de itens da biblioteca
 class Biblioteca:
     def __init__(self):
         self.itens = {}
@@ -89,28 +86,69 @@ class Biblioteca:
         else:
             print("O item não está contido na biblioteca!")
 
-
     def listar_itens_disponiveis(self):
-        print("Segue abaixo a listagem dos itens da biblioteca:")
-        for chave in self.itens.keys():
-            print(f"- {chave}")
+        print("Segue abaixo a listagem dos itens disponíveis da biblioteca:")
+        titulos_disponiveis = []
+        for titulo, item in self.itens.items():
+            if item.disponivel:
+                titulos_disponiveis.append(titulo)
+        print(f"- {titulos_disponiveis}")
 
+    def contar_item_emprestados(self):
+        qtd = 0
+        for titulo in self.itens.values():
+            if not titulo.disponivel:
+                qtd += 1
+        return qtd
 
+# Classe RelatorioBiblioteca - Gera um relat[orio completo sobre a biblioteca
+class RelatorioBiblioteca:
+    def __init__(self, biblioteca: Biblioteca):
+        self.relatorio = biblioteca
+
+    def gerar_relatorio_completo(self):
+        print("\nRelatório completo: ")
+        for item in self.relatorio.itens.values():
+            item.obter_info()
+
+    def gerar_relatorio_disponibilidade(self):
+        print("\nSegue abaixo os itens disponíveis da biblioteca: ")
+        i = 0
+        for item in self.relatorio.itens.values():
+            if item.disponivel:
+                print(f"- {item.titulo}")
+                i += 1
+        print(f"Existem {i} itens disponíveis na biblioteca.")
+
+    def gerar_relatorio_emprestimos(self):
+        print("\nSegue abaixo a quantidade de itens emprestados: ")
+        total = len(self.relatorio.itens)
+        itens_emprestados = 0
+        for item in self.relatorio.itens.values():
+            if not item.disponivel:
+                itens_emprestados += 1
+        print(f"{itens_emprestados} de {total} itens estão emprestados! ({itens_emprestados*100/total:.2f}%)")
 
 
 item01 = ItemBiblioteca("1984", 1936,True)
 item02 = ItemBiblioteca("Sapiens", 2010,True)
+item03 = ItemBiblioteca("Diário de um Banana", 2017, False)
 revista01 = Revista("Avengerns", 2001, 12, True)
+revista02 = Revista("Demolidor", 2010, 5, False)
 colecao = ColecaoLivros("Meus Favoritos", "2014")
+
 colecao.adicionar_livro(item01)
 colecao.adicionar_livro(item02)
+colecao.verificar_disponibilidade()
 
 itens = Biblioteca()
 itens.adicionar_item(item01)
 itens.adicionar_item(item02)
+itens.adicionar_item(item03)
 itens.adicionar_item(revista01)
+itens.adicionar_item(revista02)
 itens.adicionar_item(colecao)
-itens.listar_itens_disponiveis()
 
-itens.deletar_item("Sapiens")
-itens.listar_itens_disponiveis()
+RelatorioBiblioteca(itens).gerar_relatorio_completo()
+RelatorioBiblioteca(itens).gerar_relatorio_disponibilidade()
+RelatorioBiblioteca(itens).gerar_relatorio_emprestimos()
