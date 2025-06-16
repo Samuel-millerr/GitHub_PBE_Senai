@@ -1,3 +1,18 @@
+class Carro:
+    def __init__(self, marca, modelo):
+        self.marca = marca
+        self.modelo = modelo
+
+    def exibir_informacoes(self):
+        print(f"Marca: {self.marca}, Modelo: {self.modelo}")
+
+carro_01 = Carro("Toyota", "Corolla")
+carro_02 = Carro("Chevrolet", "Classic")
+carro_03 = Carro("Fiat", "Mobi")
+
+for carro in (carro_01, carro_02, carro_03):
+    carro.exibir_informacoes()
+
 from abc import ABC, abstractmethod
 # class Gato:
 #     def __init__(self, nome, idade):
